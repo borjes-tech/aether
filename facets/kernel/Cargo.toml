@@ -35,7 +35,6 @@ imap = { path = "../../bridges/mailboxes/imap" }
 jitsi = { path = "../../bridges/meetings/jitsi" }
 liteparse = { path = "../../bridges/document_parsing/liteparse" }
 aether_ocr = { path = "../ocr" }
-aether_payroll = { path = "../payroll" }
 aether_ai = { path = "../ai" }
 aether_docs = { path = "../docs" }
 ollama = { path = "../../bridges/ai/ollama" }

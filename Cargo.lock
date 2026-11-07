@@ -350,7 +350,6 @@ dependencies = [
  "aether_localization",
  "aether_ocr",
  "aether_orm",
- "aether_payroll",
  "aether_paystack_integration",
  "aether_report",
  "aether_security",
@@ -454,15 +453,6 @@ dependencies = [
  "surrealdb",
  "thiserror 2.0.20",
  "tokio",
-]
-
-[[package]]
-name = "aether_payroll"
-version = "0.1.0"
-dependencies = [
- "rayon",
- "serde_json",
- "sp_engine",
 ]
 
 [[package]]
@@ -5571,10 +5561,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4ec91767ecc0a0bbe558ce8c9da33c068066c57ecc8bb8477ef8c1ad3ef77c27"
 
 [[package]]
-name = "pe_integrator"
-version = "0.1.0"
-
-[[package]]
 name = "pem"
 version = "3.0.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -7533,30 +7519,6 @@ dependencies = [
  "libc",
  "windows-sys 0.61.2",
 ]
-
-[[package]]
-name = "sp_engine"
-version = "0.2.0"
-source = "git+https://github.com/Dawdaborje/swift_payroll_engine#8052ab9e6648ea3beee52e3c2f7a62faf7b0eb31"
-dependencies = [
- "rayon",
- "rust_decimal",
- "serde",
- "serde_json",
- "sp_expr",
-]
-
-[[package]]
-name = "sp_expr"
-version = "0.2.0"
-source = "git+https://github.com/Dawdaborje/swift_payroll_engine#8052ab9e6648ea3beee52e3c2f7a62faf7b0eb31"
-dependencies = [
- "rust_decimal",
-]
-
-[[package]]
-name = "sp_integrator"
-version = "0.1.0"
 
 [[package]]
 name = "spade"

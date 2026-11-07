@@ -24,7 +24,6 @@ pub mod mail;
 pub mod media_guard;
 pub mod ai;
 pub mod ocr;
-pub mod payroll;
 mod settings_cmd;
 pub mod settings_read;
 pub mod nested;

@@ -452,7 +452,7 @@ pub struct PluginRuntimeConfig {
     #[serde(default = "default_max_concurrent_calls")]
     pub max_concurrent_calls: u32,
     /// WebAssembly instructions (wasmtime fuel) one call may use. Time spent in kernel commands (the
-    /// database, `payroll::calculate`) is not counted.
+    /// database) is not counted.
     #[serde(default = "default_call_fuel")]
     pub call_fuel: u64,
     /// Seconds one call may run, kernel commands included.
