@@ -14,7 +14,7 @@ A review of `facets/core` and the plugin loading path. Nothing here changes beha
 - `facets/core` was one crate of about 84,000 lines (57.6k now, after two crates were split off; see step 1): host commands, HTTP API, plugin manager, chatter, organization admin, import, realtime and more.
 - Largest files: `plugin_manager/catalog.rs` (3.2k lines), `kernel/host/db.rs` (2.4k), `org_admin.rs` (2k), `data_model/definition.rs` (2k), `plugin_manager/models/plugin_def.rs` (1.9k), `plugin_manager/runtime.rs` (1.6k).
 - About 410 `unwrap()` / `expect()` calls in `facets/core/src`, nearly all in test code (see step 5). About 735 unit tests.
-- Facet crates `document`, `event_bus`, `payroll`, `payment_integration` and `organization` are stubs of 1 to 14 lines.
+- Facet crates `document`, `event_bus` and `payment_integration` are stubs of 1 to 14 lines.
 - `AppState` carries config, cache, limiters, media, scheduler link and secrets in one struct that every handler takes.
 
 ## Steps, in build order

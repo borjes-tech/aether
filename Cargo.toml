@@ -34,8 +34,6 @@ members = [
     "bridges/payments/flutterwave",
     "bridges/payments/paystack",
     "bridges/payments/stripe",
-    "bridges/payrolls/payroll_engine",
-    "bridges/payrolls/swift_payroll",
     "bridges/storage_and_cdn/local_storage",
     "bridges/storage_and_cdn/s3_storage",
     # facets
@@ -52,7 +50,6 @@ members = [
     "facets/event_bus",
     "facets/localization",
     "facets/orm",
-    "facets/payroll",
     "facets/report",
     "facets/storage",
     "facets/web",
